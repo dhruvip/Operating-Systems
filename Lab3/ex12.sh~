@@ -1,0 +1,20 @@
+#var="dhruvi pandya iffco township kasturinagar gandhinagar"
+#j=1
+#echo "${#var}"
+#for i in $var
+#do
+#   echo "$j"
+#   ((j++))
+#done
+str='Ar'
+search='Ar'
+len="${#search}"
+for(( i=0 ; i<="$len" ; i++))
+do
+if [ "${str:$i:1}" = "$search" ]
+     then
+     	echo "hi" 
+ else
+ 	echo 'no'
+fi
+done 	    	  	

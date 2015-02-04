@@ -1,0 +1,13 @@
+#10. Write a shell script program to search whether element is present in the list or not and also display its position in the list. 
+
+echo "Enter the list:"
+read var
+echo "Enter the pattern to search:"
+read pat
+
+#echo "$var." | grep -o . | grep -n 't'
+#grep -Fni "$var" "$pat"
+echo "$var"
+echo "$pat"
+ echo `expr index "$var" "$pat"`   
+
