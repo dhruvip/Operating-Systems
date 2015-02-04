@@ -1,5 +1,0 @@
-#7. Write a shell script which displays January if we enter Jan, Janu, Janua or January.(use of case)
-status=$?
-[ $status -eq 0 ] && echo "Lighttpd ... [Ok]" || echo "Lighttpd ...
-[Failed]"
-
