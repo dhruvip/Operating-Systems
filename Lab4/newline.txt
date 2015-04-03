@@ -1,0 +1,39 @@
+1. Write a shell script to accept numbers below 50 and to display the square of each.
+  This should continue as long as the user wishes
+2. Write a shell script to check whether the scanned string is found in a file or not.
+  Display appropriate message.
+3. Write a shell script to generate Fibonacci series.
+4. Write a shell script to check whether the entered number is prime or not.
+5. Write a shell script to calculate HRA of employees depending upon their basic.
+6. Write a shell script that greets the user by saying Good Morning, Good Afternoon,
+  and Good Evening according to the system time.
+7. Write a shell script, which takes a filename as command line argument, asks the user
+  if he wants to revoke the read, write permissions for the group and others for that
+ particular file. If the answer is “y” then it should do so or else it should abort the
+    operation.
+8. Write a shell script to count number of newline characters in a file.
+9. Write a shell script to count number of spaces in a file
+10. Write a Shell script, which counts the number of words in a file, without taking into
+consideration the blank space, tab spaces and the newline characters using WC.
+-rwxrwxr-x 1 dhruvi dhruvi  433 Feb  6 14:41 ex1.sh
+-rw-rw-r-- 1 dhruvi dhruvi  433 Feb  6 14:41 ex1.sh~
+-rwxrwxr-x 1 dhruvi dhruvi  141 Feb  6 15:39 ex2.sh
+-rwxrwxr-x 1 dhruvi dhruvi  132 Feb  6 15:38 ex2.sh~
+-rwxrwxr-x 1 dhruvi dhruvi   97 Feb  6 14:58 ex3.1.sh
+-rwxrwxr-x 1 dhruvi dhruvi   89 Feb  6 14:57 ex3.1.sh~
+-rw-rw-r-- 1 dhruvi dhruvi  213 Feb  6 14:45 ex3.sh
+-rwxrwxr-x 1 dhruvi dhruvi  150 Feb  6 16:14 ex4.sh
+-rwxrwxr-x 1 dhruvi dhruvi  148 Feb  6 16:13 ex4.sh~
+-rwxrwxr-x 1 dhruvi dhruvi  119 Feb  9 13:49 ex5.sh
+-rwxrwxr-x 1 dhruvi dhruvi  100 Feb  9 13:48 ex5.sh~
+-rwxrwxr-x 1 dhruvi dhruvi  182 Feb  9 14:01 ex6.sh
+-rwxrwxr-x 1 dhruvi dhruvi  201 Feb  9 13:59 ex6.sh~
+-rw------- 1 dhruvi dhruvi   43 Feb  6 15:28 grep.txt
+-rw-rw-r-- 1 dhruvi dhruvi    0 Feb  6 15:23 grep.txt~
+-rw-r----- 1 dhruvi dhruvi 5679 Feb  6 14:35 OS_Lab_Assignment.pdf
+dhruvi@ubuntu:~/Operating-Systems/Lab4$ an grep
+The program 'an' is currently not installed.  You can install it by typing:
+sudo apt-get install an
+dhruvi@ubuntu:~/Operating-Systems/Lab4$ man grep
+
+
